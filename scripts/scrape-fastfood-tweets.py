@@ -183,7 +183,7 @@ def main():
         csv_filename = f'./output/tweet_info/{u}-tweets-{time_stamp}.csv'
         tweetMuncher.tweet_to_csv(twts_info, csv_filename)
 
-        img_folder = './output/imgs'
+        img_folder = './output/imgs/'
         tweetMuncher.dwnld_images(twts_info, u, img_folder)
     
  
